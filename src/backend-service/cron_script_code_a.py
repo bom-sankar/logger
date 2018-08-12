@@ -80,7 +80,7 @@ def call_processing_service():
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler()
-    scheduler.add_job(call_processing_service, 'interval', seconds=30)
+    scheduler.add_job(call_processing_service, 'interval', seconds=2*60*60)
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
 
     try:
