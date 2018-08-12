@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Feed</title>
+{% endblock %}
+{% block pageonlycss %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/font-awesome/css/font-awesome.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/jquery-bar-rating/dist/themes/fontawesome-stars.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/icheck/skins/all.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery-ui.css') }}" />
+{% endblock %}
+{% block content %}
+        <div class="content-wrapper">
+          <div class="row">
+						<div class="col-md-6 grid-margin">
+							<div class="card">
+                <div class="card-body">
+                  <h6 class="card-title mb-0">Hottest City</h6>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                      <div class="d-lg-flex">
+                        <h2 class="mb-0">{{return_obj['max']['city']}}</h2>
+                        <div class="d-flex align-items-center ml-lg-2">
+                          <i class="mdi mdi-clock text-muted"></i>
+                          <small class="ml-1 mb-0">Updated: {{return_obj['created_time']}}</small>
+                        </div>
+                      </div>
+                      <small class="text-gray">Temparature {{return_obj['max']['max_temp']}} &#8490;</small>
+                    </div>
+                    <div class="d-inline-block">
+                      <div class="bg-success px-3 px-md-4 py-2 rounded">
+                        <i class="mdi mdi-buffer text-white icon-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+						</div>
+						<div class="col-md-6 grid-margin">
+							<div class="card">
+                <div class="card-body">
+                  <h6 class="card-title mb-0">Coolest City</h6>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                      <div class="d-lg-flex">
+                        <h2 class="mb-0">{{return_obj['min']['city']}}</h2>
+                        <div class="d-flex align-items-center ml-lg-2">
+                          <i class="mdi mdi-clock text-muted"></i>
+                          <small class="ml-1 mb-0">Updated: {{return_obj['created_time']}} </small>
+                        </div>
+                      </div>
+                      <small class="text-gray">Temparature {{return_obj['min']['max_temp']}} &#8490;</small>
+                    </div>
+                    <div class="d-inline-block">
+                      <div class="bg-warning px-3 px-md-4 py-2 rounded">
+                        <i class="mdi mdi-wallet text-white icon-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+						</div>
+					</div>
+            <div class="row">
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Temparature Data</h6>
+                  <p class="card-description">last updated at {{return_obj['created_time']}}</p>
+                  <div id="js-legend" class="chartjs-legend mt-4 mb-5"></div>
+                  <div class="demo-chart">
+                    <canvas class="w-100 h-100" id="dashboard-lineChart-2-type"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          </div>
+
+
+        </div>
+{% endblock %}
+{% block customjs %}
+    <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/chart.js/dist/Chart.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/icheck/icheck.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/typeahead.js/dist/typeahead.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/iCheck.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/feed.js') }}"></script>
+    <script type="text/javascript">
+            myVar = dashboard({{return_obj|tojson}})
+         </script>
+{% endblock %}
+

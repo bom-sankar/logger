@@ -1,0 +1,171 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Dashboard</title>
+{% endblock %}
+{% block pageonlycss %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/font-awesome/css/font-awesome.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/jquery-bar-rating/dist/themes/fontawesome-stars.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/icheck/skins/all.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/select2/dist/css/select2.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/select2-bootstrap-theme/dist/select2-bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css') }}" />
+{% endblock %}
+{% block content %}
+    <div class="content-wrapper">
+          <div class="row">
+						<div class="col-md-6 grid-margin">
+							<div class="card">
+                <div class="card-body">
+                  <h6 class="card-title mb-0">Process A</h6>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                      <div class="d-lg-flex">
+                        <h2 class="mb-0">{{return_obj['cron']['total_call']}}</h2>
+                        <div class="d-flex align-items-center ml-lg-2">
+                          <i class="mdi mdi-clock text-muted"></i>
+                          <small class="ml-1 mb-0">Updated: {{return_obj['cron']['data'][0][1]}}</small>
+                        </div>
+                      </div>
+                      <small class="text-gray">{{return_obj['cron']['succ_call']}} success,  {{return_obj['cron']['failed_call']}} failed.</small>
+                    </div>
+                    <div class="d-inline-block">
+                      <div class="bg-success px-3 px-md-4 py-2 rounded">
+                        <i class="mdi mdi-buffer text-white icon-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+						</div>
+						<div class="col-md-6 grid-margin">
+							<div class="card">
+                <div class="card-body">
+                  <h6 class="card-title mb-0">Process B</h6>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-inline-block pt-3">
+                      <div class="d-lg-flex">
+                        <h2 class="mb-0">{{return_obj['proc']['total_call']}}</h2>
+                        <div class="d-flex align-items-center ml-lg-2">
+                          <i class="mdi mdi-clock text-muted"></i>
+                          <small class="ml-1 mb-0">Updated: {{return_obj['proc']['data'][0][1]}}</small>
+                        </div>
+                      </div>
+                      <small class="text-gray">{{return_obj['proc']['succ_call']}} success,  {{return_obj['proc']['failed_call']}} failed.</small>
+                    </div>
+                    <div class="d-inline-block">
+                      <div class="bg-warning px-3 px-md-4 py-2 rounded">
+                        <i class="mdi mdi-wallet text-white icon-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+						</div>
+					</div>
+          <div class="row grid-margin">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Process A ( Last 5 call )</h6>
+
+                  <div class="table-responsive">
+                    <table class="table mt-3 border-top">
+                      <thead>
+                        <tr>
+                          <th>Start Time</th>
+                          <th>Trigger B</th>
+                          <th>Data(row, col)</th>
+                          <th>Proc. Time(sec)</th>
+                          <th>B status</th>
+                          <th>A status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for val in return_obj['cron']['data'] %}
+                        <tr>
+                          <td>{{val[1]}}</td>
+                          <td>{{val[2]}}</td>
+                          <td>{{val[3]}}, {{val[4]}}</td>
+                          <td>{{val[7]}}</td>
+                          {% if val[6]=='success' %}
+                        <td><div class="badge badge-success badge-fw">{{val[5]}}</div></td>
+                        {% else %}
+                        <td><div class="badge badge-warning badge-fw">{{val[5]}}</div></td>
+                            {% endif %}
+                        {% if val[6]=='success' %}
+                        <td><div class="badge badge-success badge-fw">{{val[6]}}</div></td>
+                        {% else %}
+                        <td><div class="badge badge-warning badge-fw">{{val[6]}}</div></td>
+                            {% endif %}
+                        </tr>
+                      {% endfor %}
+
+                      </tbody>
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row grid-margin">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Process B ( Last 5 call )</h6>
+
+                  <div class="table-responsive">
+                    <table class="table mt-3 border-top">
+                      <thead>
+                        <tr>
+                          <th>Start Time</th>
+                          <th>Proc. Time(sec)</th>
+                          <th>Hist. call count</th>
+                          <th>Row New</th>
+                          <th>Doc Count</th>
+                          <th>Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for val in return_obj['proc']['data'] %}
+                        <tr>
+                          <td>{{val[0]}}</td>
+                          <td>{{val[7]}}</td>
+                          <td>{{val[2]}}</td>
+                          <td>{{val[3]}}</td>
+                          <td>{{val[4]}}</td>
+
+                        {% if val[6]=='success' %}
+                        <td><div class="badge badge-success badge-fw">{{val[6]}}</div></td>
+                        {% else %}
+                        <td><div class="badge badge-warning badge-fw">{{val[6]}}</div></td>
+                            {% endif %}
+                        </tr>
+                      {% endfor %}
+
+                      </tbody>
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+{% endblock %}
+{% block customjs %}
+    <script src="{{ url_for('static', filename='js/custom-functions.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/jquery-bar-rating/dist/jquery.barrating.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/icheck/icheck.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/typeahead.js/dist/typeahead.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/select2/dist/js/select2.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/typeahead.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/select2.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/iCheck.js') }}"></script>
+    <script src="{{ url_for('static', filename='node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/formpickers.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/notification.js') }}"></script>
+
+{% endblock %}
+
