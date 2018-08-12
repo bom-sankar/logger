@@ -143,6 +143,7 @@ def weather():
             weather_data['cities'] = city_list
             weather_data['temps'] = temp_list
             return jsonify(weather_data)
+        return jsonify({}), 401
     except Exception as e:
         return jsonify({}), 401
 
