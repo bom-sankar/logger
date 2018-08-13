@@ -25,4 +25,4 @@ PROC_LOG = 'processing.log'
 PROC_COL = ['start_time', 'proc_time', 'exist_col', 'new_col', 'doc_cnt', 'doc_id', 'status']
 
 # city names
-CITY = ['kolkata', 'mumbai']
+CITY = ['kolkata', 'mumbai', 'hyderabad', 'jalandhar', 'chandigarh', 'indore', 'jalandhar', 'calicut', 'jalalpur', 'vadodara']
