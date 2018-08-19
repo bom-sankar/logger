@@ -1,0 +1,103 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5252/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 330-063-075
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:49:22] "GET /weather/ HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:49:33] "GET /dashboard/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:06 -- 2018/08/19 21:51:06 -- 0 -- 10 -- 73 -- 5b7998f264eba624356d7ce2 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:06] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:12 -- 2018/08/19 21:51:12 -- 1 -- 10 -- 74 -- 5b7998f864eba624356d7ce3 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:12] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:18 -- 2018/08/19 21:51:18 -- 2 -- 10 -- 75 -- 5b7998fe64eba624356d7ce4 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:18] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:25 -- 2018/08/19 21:51:25 -- 3 -- 10 -- 76 -- 5b79990564eba624356d7ce5 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:25] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:30 -- 2018/08/19 21:51:30 -- 4 -- 10 -- 77 -- 5b79990a64eba624356d7ce6 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:30] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:39 -- 2018/08/19 21:51:39 -- 5 -- 10 -- 78 -- 5b79991364eba624356d7ce7 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:39] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:44 -- 2018/08/19 21:51:44 -- 6 -- 10 -- 79 -- 5b79991864eba624356d7ce8 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:44] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:50 -- 2018/08/19 21:51:50 -- 7 -- 10 -- 80 -- 5b79991e64eba624356d7ce9 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:50] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:51:56 -- 2018/08/19 21:51:56 -- 8 -- 10 -- 81 -- 5b79992464eba624356d7cea -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:51:56] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:02 -- 2018/08/19 21:52:02 -- 9 -- 10 -- 82 -- 5b79992a64eba624356d7ceb -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:02] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:08 -- 2018/08/19 21:52:08 -- 10 -- 10 -- 83 -- 5b79993064eba624356d7cec -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:08] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:14 -- 2018/08/19 21:52:14 -- 11 -- 10 -- 84 -- 5b79993664eba624356d7ced -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:14] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:20 -- 2018/08/19 21:52:20 -- 12 -- 10 -- 85 -- 5b79993c64eba624356d7cee -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:20] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:26 -- 2018/08/19 21:52:26 -- 13 -- 10 -- 86 -- 5b79994264eba624356d7cef -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:26] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:32 -- 2018/08/19 21:52:32 -- 14 -- 10 -- 87 -- 5b79994864eba624356d7cf0 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:32] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:38 -- 2018/08/19 21:52:38 -- 15 -- 10 -- 88 -- 5b79994e64eba624356d7cf1 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:38] "POST /download/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:39] "GET /dashboard/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:44 -- 2018/08/19 21:52:44 -- 16 -- 10 -- 89 -- 5b79995464eba624356d7cf2 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:44] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:50 -- 2018/08/19 21:52:50 -- 17 -- 10 -- 90 -- 5b79995a64eba624356d7cf3 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:50] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:52:56 -- 2018/08/19 21:52:56 -- 18 -- 10 -- 91 -- 5b79996064eba624356d7cf4 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:52:56] "POST /download/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:01] "GET /weather/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:02 -- 2018/08/19 21:53:02 -- 19 -- 10 -- 92 -- 5b79996664eba624356d7cf5 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:02] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:08 -- 2018/08/19 21:53:08 -- 20 -- 10 -- 93 -- 5b79996c64eba624356d7cf6 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:08] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:14 -- 2018/08/19 21:53:14 -- 21 -- 10 -- 94 -- 5b79997264eba624356d7cf7 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:14] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:20 -- 2018/08/19 21:53:20 -- 22 -- 10 -- 95 -- 5b79997864eba624356d7cf8 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:20] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:26 -- 2018/08/19 21:53:26 -- 23 -- 10 -- 96 -- 5b79997e64eba624356d7cf9 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:26] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:33 -- 2018/08/19 21:53:33 -- 24 -- 10 -- 97 -- 5b79998564eba624356d7cfa -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:33] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:41 -- 2018/08/19 21:53:41 -- 25 -- 10 -- 98 -- 5b79998d64eba624356d7cfb -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:41] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:46 -- 2018/08/19 21:53:46 -- 26 -- 10 -- 99 -- 5b79999264eba624356d7cfc -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:46] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:52 -- 2018/08/19 21:53:52 -- 27 -- 10 -- 100 -- 5b79999864eba624356d7cfd -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:52] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:53:58 -- 2018/08/19 21:53:58 -- 28 -- 10 -- 101 -- 5b79999e64eba624356d7cfe -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:53:58] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:05 -- 2018/08/19 21:54:05 -- 29 -- 10 -- 102 -- 5b7999a564eba624356d7cff -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:05] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:11 -- 2018/08/19 21:54:11 -- 30 -- 10 -- 103 -- 5b7999ab64eba624356d7d00 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:11] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:18 -- 2018/08/19 21:54:18 -- 31 -- 10 -- 104 -- 5b7999b264eba624356d7d01 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:18] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:25 -- 2018/08/19 21:54:25 -- 32 -- 10 -- 105 -- 5b7999b964eba624356d7d02 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:25] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:31 -- 2018/08/19 21:54:31 -- 33 -- 10 -- 106 -- 5b7999bf64eba624356d7d03 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:31] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:37 -- 2018/08/19 21:54:37 -- 34 -- 10 -- 107 -- 5b7999c564eba624356d7d04 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:37] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:43 -- 2018/08/19 21:54:43 -- 35 -- 10 -- 108 -- 5b7999cb64eba624356d7d05 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:43] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:49 -- 2018/08/19 21:54:49 -- 36 -- 10 -- 109 -- 5b7999d164eba624356d7d06 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:49] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:54:55 -- 2018/08/19 21:54:55 -- 37 -- 10 -- 110 -- 5b7999d764eba624356d7d07 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:54:55] "POST /download/ HTTP/1.1" 200 -
+DEBUG:flask.app:2018/08/19 21:55:01 -- 2018/08/19 21:55:01 -- 38 -- 10 -- 111 -- 5b7999dd64eba624356d7d08 -- success
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 21:55:01] "POST /download/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:05:28] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:21:45] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:28:15] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:29:17] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:30:38] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:31:42] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:37:20] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:38:33] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:39:27] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:42:06] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:45:52] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:53:44] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:54:37] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:55:59] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:59:08] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:59:38] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:02:11] "GET /weather/ HTTP/1.1" 200 -
