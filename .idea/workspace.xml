@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cc83aa-0428-4a3e-a185-ab62f8c73ae5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/backend-service/cron.log" afterPath="$PROJECT_DIR$/src/backend-service/cron.log" />
       <change beforePath="$PROJECT_DIR$/src/backend-service/processing.log" afterPath="$PROJECT_DIR$/src/backend-service/processing.log" />
-      <change beforePath="$PROJECT_DIR$/src/front-service/app/front_service/forms.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/front-service/app/static/js/feed.js" afterPath="$PROJECT_DIR$/src/front-service/app/static/js/feed.js" />
       <change beforePath="$PROJECT_DIR$/src/front-service/app/templates/base.html" afterPath="$PROJECT_DIR$/src/front-service/app/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/src/front-service/app/templates/dashboard.html" afterPath="$PROJECT_DIR$/src/front-service/app/templates/dashboard.html" />
-      <change beforePath="$PROJECT_DIR$/src/front-service/app/templates/feed.html" afterPath="$PROJECT_DIR$/src/front-service/app/templates/feed.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +49,8 @@
       <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front-service/app/front_service/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="162">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#127#0" expanded="true" />
               </folding>
@@ -67,8 +61,8 @@
       <file leaf-file-name="feed.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/feed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1366">
-              <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+            <state relative-caret-position="252">
+              <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -89,24 +83,24 @@
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="162">
+              <caret line="9" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="490">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="57" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cron_script_code_a.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cron_script_code_a.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backend-service/cron_script_code_a.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
@@ -150,10 +144,10 @@
         <option value="$PROJECT_DIR$/src/backend-service/cron.log" />
         <option value="$PROJECT_DIR$/src/backend-service/processing.log" />
         <option value="$PROJECT_DIR$/src/front-service/app/templates/dashboard.html" />
-        <option value="$PROJECT_DIR$/src/front-service/app/templates/base.html" />
         <option value="$PROJECT_DIR$/src/front-service/app/static/js/feed.js" />
         <option value="$PROJECT_DIR$/src/front-service/app/templates/feed.html" />
         <option value="$PROJECT_DIR$/src/backend-service/cron_script_code_a.py" />
+        <option value="$PROJECT_DIR$/src/front-service/app/templates/base.html" />
       </list>
     </option>
   </component>
@@ -266,7 +260,7 @@
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -637,29 +631,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/src/backend-service/cron_script_code_a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="426">
+          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front-service/app/front_service/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,18 +649,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/feed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1366">
-          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend-service/cron_script_code_a.py">
+    <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front-service/app/front_service/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front-service/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="57" selection-end-column="9" />
           <folding />
         </state>
       </provider>

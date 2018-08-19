@@ -101,3 +101,15 @@ INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:55:59] "GET /weather/ HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:59:08] "GET /weather/ HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 22:59:38] "GET /weather/ HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:02:11] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:37:36] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:37:46] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:08] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:14] "GET /dashboard/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:15] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:20] "GET /dashboard/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:41] "GET /dashboard/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:53] "GET /dashboard/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:38:59] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:39:48] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:40:34] "GET /weather/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2018 23:40:41] "GET /dashboard/ HTTP/1.1" 200 -
